@@ -1,4 +1,4 @@
-Here are your 10 completed GitHub-ready user stories using your ISSUE_TEMPLATE format. You can copy each one as a separate GitHub issue.
+This is setup of kabana
 
 ```md
 name: User Story
