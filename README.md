@@ -1,38 +1,27 @@
-Here are your **10 completed GitHub-ready user stories** using your ISSUE_TEMPLATE format. You can copy each one as a separate GitHub issue.
+Here are your 10 completed GitHub-ready user stories using your ISSUE_TEMPLATE format. You can copy each one as a separate GitHub issue.
 
 
 ```md
 ---
 name: User Story
-title: "Create Product in Catalog"
+title: Create Product in Catalog
 labels: enhancement
-assignees: ''
+assignees:
 ---
 
 ## User Story
-
-**As a** product owner / user  
-**I need** to create a product in the catalog  
-**So that** new products can be added for customers to view
-
----
+As a user  
+I need to create a product in the catalog  
+So that new products can be added
 
 ## Acceptance Criteria
-
-### Scenario 1
-**Given** valid product details  
-**When** I submit the product  
-**Then** the product is added to the catalog
-
----
+Given valid product details  
+When I submit the product  
+Then it is added to the catalog
 
 ## Story Points
-- [ ] 5
-```
-
----
-
-## **2. Retrieve Product**
+5
+## 2. Retrieve Product
 
 ```md
 ---
@@ -44,18 +33,18 @@ assignees: ''
 
 ## User Story
 
-**As a** product owner / user  
-**I need** to retrieve a product from the catalog  
-**So that** I can view product details
+As a product owner / user  
+I need to retrieve a product from the catalog  
+So that I can view product details
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** a valid product ID  
-**When** I request the product  
-**Then** the product details are displayed
+Given a valid product ID  
+When I request the product  
+Then the product details are displayed
 
 ---
 
@@ -65,7 +54,7 @@ assignees: ''
 
 ---
 
-## **3. Update Product**
+## 3. Update Product
 
 ```md
 ---
@@ -77,18 +66,18 @@ assignees: ''
 
 ## User Story
 
-**As a** product owner / user  
-**I need** to update a product in the catalog  
-**So that** product information remains accurate
+As a product owner / user  
+I need to update a product in the catalog  
+So that product information remains accurate
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** an existing product  
-**When** I update product details  
-**Then** the catalog reflects updated information
+Given an existing product  
+When I update product details  
+Then the catalog reflects updated information
 
 ---
 
@@ -98,7 +87,7 @@ assignees: ''
 
 ---
 
-## **4. Delete Product**
+## 4. Delete Product
 
 ```md
 ---
@@ -110,18 +99,18 @@ assignees: ''
 
 ## User Story
 
-**As a** product owner / user  
-**I need** to delete a product from the catalog  
-**So that** outdated products are removed
+As a product owner / user  
+I need to delete a product from the catalog  
+So that outdated products are removed
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** a product exists  
-**When** I delete the product  
-**Then** it is removed from the catalog
+Given a product exists  
+When I delete the product  
+Then it is removed from the catalog
 
 ---
 
@@ -131,7 +120,7 @@ assignees: ''
 
 ---
 
-## **5. Like Product**
+## 5. Like Product
 
 ```md
 ---
@@ -143,18 +132,18 @@ assignees: ''
 
 ## User Story
 
-**As a** user  
-**I need** to like a product  
-**So that** I can show preference for products
+As a user  
+I need to like a product  
+So that I can show preference for products
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** a product exists  
-**When** I click like  
-**Then** the like count increases
+Given a product exists  
+When I click like  
+Then the like count increases
 
 ---
 
@@ -164,7 +153,7 @@ assignees: ''
 
 ---
 
-## **6. Dislike Product**
+## 6. Dislike Product
 
 ```md
 ---
@@ -176,18 +165,18 @@ assignees: ''
 
 ## User Story
 
-**As a** user  
-**I need** to dislike a product  
-**So that** I can show negative preference
+As a user  
+I need to dislike a product  
+So that I can show negative preference
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** a product exists  
-**When** I click dislike  
-**Then** the dislike count increases
+Given a product exists  
+When I click dislike  
+Then the dislike count increases
 
 ---
 
@@ -197,7 +186,7 @@ assignees: ''
 
 ---
 
-## **7. List All Products**
+## 7. List All Products
 
 ```md
 ---
@@ -209,18 +198,18 @@ assignees: ''
 
 ## User Story
 
-**As a** user  
-**I need** to view all products  
-**So that** I can browse the catalog
+As a user  
+I need to view all products  
+So that I can browse the catalog
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** products exist in the catalog  
-**When** I request all products  
-**Then** all products are displayed
+Given products exist in the catalog  
+When I request all products  
+Then all products are displayed
 
 ---
 
@@ -230,7 +219,7 @@ assignees: ''
 
 ---
 
-## **8. Host in Cloud**
+## 8. Host in Cloud
 
 ```md
 ---
@@ -242,18 +231,18 @@ assignees: ''
 
 ## User Story
 
-**As a** product owner  
-**I need** the application hosted in the cloud  
-**So that** it is accessible globally
+As a product owner  
+I need the application hosted in the cloud  
+So that it is accessible globally
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** the application is deployed  
-**When** I access the URL  
-**Then** the system is available online
+Given the application is deployed  
+When I access the URL  
+Then the system is available online
 
 ---
 
@@ -263,7 +252,7 @@ assignees: ''
 
 ---
 
-## **9. Query Subset of Products (Technical Debt)**
+## 9. Query Subset of Products (Technical Debt)
 
 ```md
 ---
@@ -275,18 +264,18 @@ assignees: ''
 
 ## User Story
 
-**As a** user  
-**I need** to query a subset of products  
-**So that** I can filter products based on criteria
+As a user  
+I need to query a subset of products  
+So that I can filter products based on criteria
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** filter criteria exist  
-**When** I query products  
-**Then** only matching products are returned
+Given filter criteria exist  
+When I query products  
+Then only matching products are returned
 
 ---
 
@@ -296,7 +285,7 @@ assignees: ''
 
 ---
 
-## **10. Automate Deployment (Technical Debt)**
+## 10. Automate Deployment (Technical Debt)
 
 ```md
 ---
@@ -308,18 +297,18 @@ assignees: ''
 
 ## User Story
 
-**As a** developer  
-**I need** automated deployment to the cloud  
-**So that** updates are deployed efficiently
+As a developer  
+I need automated deployment to the cloud  
+So that updates are deployed efficiently
 
 ---
 
 ## Acceptance Criteria
 
 ### Scenario 1
-**Given** new code is pushed  
-**When** pipeline runs  
-**Then** the application is deployed automatically
+Given new code is pushed  
+When pipeline runs  
+Then the application is deployed automatically
 
 ---
 
