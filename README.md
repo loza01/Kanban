@@ -2,7 +2,7 @@ This repository was specifically created to show the setup of a Kanban Board (Ka
 
 This is how i did it
 
-Setup Steps for the Kanban BoardFollow these steps to replicate the board used in this project:
+First I Steps the Kanban Board  by following these steps to replicate the board used in this project:
 1, Enable GitHub Issues
 2, Create the User Stories
 3, Initialize the Project Board
