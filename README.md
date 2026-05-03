@@ -22,7 +22,7 @@ I seet up the following columns to visualise the flow of value:
 *   **In Progress:** Tasks currently being worked on.
 *   **In Review / QA:** Items undergoing testing against acceptance criteria.
 *   **Done,** Completed and verified features.
-*   ** I have added Lable, estimation, assigned to myself as well**
+*   I have added Lable, estimation, assigned to myself as well
 
 ### 5. Link & Prioritize
 Connect the Issues to the Project Board and stack-rank them in the **Backlog** and **Ready for Dev** columns based on business value and urgency.
